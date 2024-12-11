@@ -4,15 +4,19 @@
   "description": "this is threade backend code",
   "main": "index.js",
   "scripts": {
-    "start": "Nodemon index.js"
+    "start": "node ",
+    "dev":"tsc-watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/express": "^5.0.0",
     "express": "^4.21.2",
     "nodemon": "^3.1.7"
   },
   "devDependencies": {
+    
+    "tsc-watch": "^6.2.1",
     "typescript": "^5.7.2"
   }
 }
